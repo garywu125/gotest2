@@ -18,5 +18,12 @@ func main() {
 		}
 		fmt.Println(n)
 	}
+
+	for n := 0; n <= 10; n++ {
+		if n%2 == 0 {
+			continue
+		}
+		fmt.Println("test2:", n)
+	}
 	log.Info("+new info")
 }
